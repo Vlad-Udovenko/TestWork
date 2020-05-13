@@ -1,0 +1,29 @@
+body{
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.img_me{
+height: 400px;
+}
+@media (min-width: 576px) { 
+.custom_width{
+    width: 100%;
+}
+}
+@media (min-width: 768px) { 
+    .custom_width{
+        width: 50%;
+    }
+ }
+
+
+@media (min-width: 992px) { 
+    .custom_width{
+        width: 25%;
+    }
+ }
+
+
+@media (min-width: 1200px) { 
+
+ }

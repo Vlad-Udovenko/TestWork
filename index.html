@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/index.css">
+</head>
+
+<body>
+    <div class="container mb-4">
+        <div class="row">
+            <img class="img_me " src="img/me.png" alt="me Not Found">
+            <div class="col-lg-1 col-md-2 col-sm-6">Влад Удовенко</div>
+            <div class="col-lg-2 col-md-3 col-sm-6">6 месяцев</div>
+        </div>
+
+    </div>
+    <div class="container mb-4">
+        <div class="row">
+            <div class="row col-lg-4 col-md-6 col-sm-12">
+                <img class="" src="img/html.png" alt="html Not found">
+                <div class="">HTML</div>
+            </div>
+            <div class="row col-lg-4 col-md-6 col-sm-12">
+                <img class="" src="img/CSS.png" alt="CSS Not found">
+                <div class="">CSS</div>
+            </div>
+            <div class="row col-lg-4 col-md-6 col-sm-12">
+                <img class="" src="img/js.png" alt="js Not found">
+                <div class="">JS</div>
+            </div>
+            <div class="row col-lg-4 col-md-6 col-sm-12">
+                <img class="" src="img/jquerry.png" alt="jquerry Not found">
+                <div class="">JQuerry</div>
+            </div>
+            <div class="row col-lg-4 col-md-6 col-sm-12">
+                <img class="" src="img/Angular.png" alt="Angular Not found">
+                <div class="">AngularJs</div>
+            </div>
+            <div class="row col-lg-4 col-md-6 col-sm-12">
+                <img class="" src="img/react.png" alt="react Not found">
+                <div class="">React</div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <form class="row custom_width" action="" onsubmit="return (ValidMail()&&ValidPhone())">
+            <p id="message" class="col-lg-12 text-danger mb-2" >Пожалуйста, заполните все поля формы!</p> 
+            <input class="col-lg-12" type="text" id="name" placeholder="Имя" required>
+            <input class="col-lg-12"  type="text" id="phone" placeholder="Номер" required>
+            <textarea class="col-lg-12" cols="20" rows="5" placeholder="Сообщение"></textarea>
+            <button class="btn-primary" type="submit" >Отправить</button>
+        </form>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
